@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import prettier from 'prettier'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
