@@ -25,11 +25,16 @@
     "env": {
       "node": true
     },
+    "plugins": [
+      "prettier"
+    ],
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "prettier/prettier": "error"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
